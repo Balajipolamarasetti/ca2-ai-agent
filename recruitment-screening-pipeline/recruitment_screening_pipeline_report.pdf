@@ -1,0 +1,1534 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 15 /Kids [5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R 27 0 R 29 0 R 31 0 R 33 0 R] >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 1944 >>
+stream
+0.100 0.200 0.340 rg
+0.00 823.89 595.28 18.00 re f
+0.110 0.480 0.510 rg
+54.00 576.89 5.00 151.00 re f
+0.110 0.480 0.510 rg
+BT /F2 12.00 Tf 1 0 0 1 76.00 690.89 Tm (PROJECT REPORT) Tj ET
+0.100 0.200 0.340 rg
+BT /F2 24.00 Tf 1 0 0 1 76.00 646.89 Tm (Recruitment Screening and Interview) Tj ET
+0.100 0.200 0.340 rg
+BT /F2 24.00 Tf 1 0 0 1 76.00 614.89 Tm (Scheduling Pipeline) Tj ET
+0.360 0.400 0.450 rg
+BT /F1 13.00 Tf 1 0 0 1 76.00 575.89 Tm (Design, implementation, testing, and limitations of a deterministic) Tj ET
+0.360 0.400 0.450 rg
+BT /F1 13.00 Tf 1 0 0 1 76.00 556.89 Tm (multi-stage screening prototype.) Tj ET
+0.800 0.840 0.880 RG
+0.80 w 76.00 469.89 m 541.28 469.89 l S
+0.160 0.360 0.580 rg
+BT /F2 11.00 Tf 1 0 0 1 76.00 436.89 Tm (STUDENT AND COURSE DETAILS) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 11.00 Tf 1 0 0 1 76.00 406.89 Tm (Student name) Tj ET
+0.800 0.840 0.880 RG
+0.70 w 244.00 403.89 m 541.28 403.89 l S
+0.150 0.180 0.220 rg
+BT /F1 11.00 Tf 1 0 0 1 76.00 369.89 Tm (Student ID) Tj ET
+0.800 0.840 0.880 RG
+0.70 w 244.00 366.89 m 541.28 366.89 l S
+0.150 0.180 0.220 rg
+BT /F1 11.00 Tf 1 0 0 1 76.00 332.89 Tm (Course / module) Tj ET
+0.800 0.840 0.880 RG
+0.70 w 244.00 329.89 m 541.28 329.89 l S
+0.150 0.180 0.220 rg
+BT /F1 11.00 Tf 1 0 0 1 76.00 295.89 Tm (Department / university) Tj ET
+0.800 0.840 0.880 RG
+0.70 w 244.00 292.89 m 541.28 292.89 l S
+0.150 0.180 0.220 rg
+BT /F1 11.00 Tf 1 0 0 1 76.00 258.89 Tm (Instructor / supervisor) Tj ET
+0.800 0.840 0.880 RG
+0.70 w 244.00 255.89 m 541.28 255.89 l S
+0.150 0.180 0.220 rg
+BT /F1 11.00 Tf 1 0 0 1 76.00 221.89 Tm (Submission date) Tj ET
+0.800 0.840 0.880 RG
+0.70 w 244.00 218.89 m 541.28 218.89 l S
+0.360 0.400 0.450 rg
+BT /F1 9.00 Tf 1 0 0 1 76.00 62.00 Tm (Prepared from the repository implementation and its automated test suite.) Tj ET
+0.360 0.400 0.450 rg
+BT /F1 9.00 Tf 1 0 0 1 76.00 45.00 Tm (Cover-page details are intentionally left for the student to complete.) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 5232 >>
+stream
+0.360 0.400 0.450 rg
+BT /F2 8.50 Tf 1 0 0 1 54.00 812.89 Tm (RECRUITMENT SCREENING AND INTERVIEW SCHEDULING PIPELINE) Tj ET
+0.800 0.840 0.880 RG
+0.60 w 54.00 800.89 m 541.28 800.89 l S
+0.800 0.840 0.880 RG
+0.60 w 54.00 43.00 m 541.28 43.00 l S
+0.360 0.400 0.450 rg
+BT /F1 8.50 Tf 1 0 0 1 54.00 25.00 Tm (University project report | 15 November 2026) Tj ET
+0.360 0.400 0.450 rg
+BT /F2 9.00 Tf 1 0 0 1 513.28 25.00 Tm (2) Tj ET
+0.100 0.200 0.340 rg
+BT /F2 15.00 Tf 1 0 0 1 54.00 761.89 Tm (Contents) Tj ET
+0.360 0.400 0.450 rg
+BT /F1 10.50 Tf 1 0 0 1 54.00 736.89 Tm (Page 1 is reserved for student and course details.) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 11.80 Tf 1 0 0 1 54.00 711.89 Tm (Executive summary) Tj ET
+0.800 0.840 0.880 rg
+BT /F1 10.00 Tf 1 0 0 1 161.95 711.89 Tm (.................................................................................) Tj ET
+0.100 0.200 0.340 rg
+BT /F2 11.80 Tf 1 0 0 1 525.28 711.89 Tm (3) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 11.80 Tf 1 0 0 1 54.00 677.89 Tm (1. Introduction and project objectives) Tj ET
+0.800 0.840 0.880 rg
+BT /F1 10.00 Tf 1 0 0 1 251.19 677.89 Tm (............................................................) Tj ET
+0.100 0.200 0.340 rg
+BT /F2 11.80 Tf 1 0 0 1 525.28 677.89 Tm (4) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 11.80 Tf 1 0 0 1 54.00 643.89 Tm (2. Background and design rationale) Tj ET
+0.800 0.840 0.880 rg
+BT /F1 10.00 Tf 1 0 0 1 244.65 643.89 Tm (..............................................................) Tj ET
+0.100 0.200 0.340 rg
+BT /F2 11.80 Tf 1 0 0 1 525.28 643.89 Tm (5) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 11.80 Tf 1 0 0 1 54.00 609.89 Tm (3. Requirements and scope) Tj ET
+0.800 0.840 0.880 rg
+BT /F1 10.00 Tf 1 0 0 1 203.30 609.89 Tm (.......................................................................) Tj ET
+0.100 0.200 0.340 rg
+BT /F2 11.80 Tf 1 0 0 1 525.28 609.89 Tm (6) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 11.80 Tf 1 0 0 1 54.00 575.89 Tm (4. System architecture and workflow) Tj ET
+0.800 0.840 0.880 rg
+BT /F1 10.00 Tf 1 0 0 1 248.53 575.89 Tm (.............................................................) Tj ET
+0.100 0.200 0.340 rg
+BT /F2 11.80 Tf 1 0 0 1 525.28 575.89 Tm (7) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 11.80 Tf 1 0 0 1 54.00 541.89 Tm (5. Parsing and requirement matching) Tj ET
+0.800 0.840 0.880 rg
+BT /F1 10.00 Tf 1 0 0 1 252.49 541.89 Tm (............................................................) Tj ET
+0.100 0.200 0.340 rg
+BT /F2 11.80 Tf 1 0 0 1 525.28 541.89 Tm (8) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 11.80 Tf 1 0 0 1 54.00 507.89 Tm (6. Ranking and bias review) Tj ET
+0.800 0.840 0.880 rg
+BT /F1 10.00 Tf 1 0 0 1 200.68 507.89 Tm (........................................................................) Tj ET
+0.100 0.200 0.340 rg
+BT /F2 11.80 Tf 1 0 0 1 525.28 507.89 Tm (9) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 11.80 Tf 1 0 0 1 54.00 473.89 Tm (7. Shared state, trace, and scheduling) Tj ET
+0.800 0.840 0.880 rg
+BT /F1 10.00 Tf 1 0 0 1 257.75 473.89 Tm (..........................................................) Tj ET
+0.100 0.200 0.340 rg
+BT /F2 11.80 Tf 1 0 0 1 525.28 473.89 Tm (10) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 11.80 Tf 1 0 0 1 54.00 439.89 Tm (8. Implementation and execution) Tj ET
+0.800 0.840 0.880 rg
+BT /F1 10.00 Tf 1 0 0 1 229.55 439.89 Tm (.................................................................) Tj ET
+0.100 0.200 0.340 rg
+BT /F2 11.80 Tf 1 0 0 1 525.28 439.89 Tm (11) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 11.80 Tf 1 0 0 1 54.00 405.89 Tm (9. Testing and results) Tj ET
+0.800 0.840 0.880 rg
+BT /F1 10.00 Tf 1 0 0 1 171.78 405.89 Tm (..............................................................................) Tj ET
+0.100 0.200 0.340 rg
+BT /F2 11.80 Tf 1 0 0 1 525.28 405.89 Tm (12) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 11.80 Tf 1 0 0 1 54.00 371.89 Tm (10. Worked scoring example) Tj ET
+0.800 0.840 0.880 rg
+BT /F1 10.00 Tf 1 0 0 1 208.53 371.89 Tm (......................................................................) Tj ET
+0.100 0.200 0.340 rg
+BT /F2 11.80 Tf 1 0 0 1 525.28 371.89 Tm (13) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 11.80 Tf 1 0 0 1 54.00 337.89 Tm (11. Privacy, fairness, and limitations) Tj ET
+0.800 0.840 0.880 rg
+BT /F1 10.00 Tf 1 0 0 1 247.19 337.89 Tm (.............................................................) Tj ET
+0.100 0.200 0.340 rg
+BT /F2 11.80 Tf 1 0 0 1 525.28 337.89 Tm (14) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 11.80 Tf 1 0 0 1 54.00 303.89 Tm (12. Conclusion, future work, and references) Tj ET
+0.800 0.840 0.880 rg
+BT /F1 10.00 Tf 1 0 0 1 287.25 303.89 Tm (....................................................) Tj ET
+0.100 0.200 0.340 rg
+BT /F2 11.80 Tf 1 0 0 1 525.28 303.89 Tm (15) Tj ET
+0.920 0.950 0.980 rg
+54.00 194.89 487.28 73.00 re f
+0.110 0.480 0.510 rg
+54.00 194.89 4.00 73.00 re f
+0.100 0.200 0.340 rg
+BT /F2 11.50 Tf 1 0 0 1 68.00 251.89 Tm (Reading note) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 11.00 Tf 1 0 0 1 68.00 235.89 Tm (The report distinguishes implemented behavior from proposed improvements. Test results) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 11.00 Tf 1 0 0 1 68.00 220.89 Tm (are reported for the four tests present in the repository; they are not a production) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 11.00 Tf 1 0 0 1 68.00 205.89 Tm (evaluation.) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 10 0 R >>
+endobj
+10 0 obj
+<< /Length 5074 >>
+stream
+0.360 0.400 0.450 rg
+BT /F2 8.50 Tf 1 0 0 1 54.00 812.89 Tm (RECRUITMENT SCREENING AND INTERVIEW SCHEDULING PIPELINE) Tj ET
+0.800 0.840 0.880 RG
+0.60 w 54.00 800.89 m 541.28 800.89 l S
+0.800 0.840 0.880 RG
+0.60 w 54.00 43.00 m 541.28 43.00 l S
+0.360 0.400 0.450 rg
+BT /F1 8.50 Tf 1 0 0 1 54.00 25.00 Tm (University project report | 15 November 2026) Tj ET
+0.360 0.400 0.450 rg
+BT /F2 9.00 Tf 1 0 0 1 513.28 25.00 Tm (3) Tj ET
+0.100 0.200 0.340 rg
+BT /F2 15.00 Tf 1 0 0 1 54.00 761.89 Tm (Executive summary) Tj ET
+0.360 0.400 0.450 rg
+BT /F1 10.50 Tf 1 0 0 1 54.00 736.89 Tm (Project overview and principal findings) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 711.89 Tm (This project implements a compact recruitment-screening and interview-scheduling) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 693.89 Tm (prototype. A coordinator passes a shared candidate pool through five deterministic) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 675.89 Tm (stages: parsing, requirement matching, ranking, bias review, and scheduling. An) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 657.89 Tm (in-memory availability tool supplies interview slots and records reservations. The) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 639.89 Tm (system uses Microsoft Semantic Kernel to register and invoke local Python functions) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 621.89 Tm (as plugins, but the current workflow does not call a generative model or require) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 603.89 Tm (model credentials [1, 3].) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 576.89 Tm (The parser extracts a limited set of recognized skills, education labels, and explicitly) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 558.89 Tm (stated experience durations. The matcher compares those fields with named,) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 540.89 Tm (weighted job requirements and records evidence for each comparison. The ranker) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 522.89 Tm (calculates a weighted percentage and creates a short rationale. The reviewer) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 504.89 Tm (checks requirement labels, rationales, and the list of fields declared as scored;) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 486.89 Tm (requirements containing recognized protected-attribute terms are excluded and) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 468.89 Tm (scores are recalculated. Finally, the scheduler assigns available slots to candidates) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 450.89 Tm (within the requested shortlist size, and the coordinator attempts to reserve those) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 432.89 Tm (slots.) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 405.89 Tm (The repository tests demonstrate sequential processing, score-based ordering,) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 387.89 Tm (removal of an age-related requirement in a test case, non-parsing of explicit age and) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 369.89 Tm (gender text, and behavior when no slots are available. The local test run for this) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 351.89 Tm (report passed all four tests. These results establish that selected examples work as) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 333.89 Tm (coded; they do not prove that the extraction is complete, the scoring is valid for real) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 315.89 Tm (hiring, or the bias review is comprehensive.) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 288.89 Tm (A central design choice is restraint: resumes with employment dates but no explicit) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 270.89 Tm (duration do not receive inferred experience credit. The central limitation is equally) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 252.89 Tm (important: a fixed vocabulary and term checks cannot interpret every resume or) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 234.89 Tm (detect every form of bias. The prototype is therefore best understood as an) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 216.89 Tm (educational, explainable workflow demonstration and not as an autonomous hiring) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 198.89 Tm (decision system.) Tj ET
+0.920 0.950 0.980 rg
+54.00 125.89 487.28 58.00 re f
+0.110 0.480 0.510 rg
+54.00 125.89 4.00 58.00 re f
+0.100 0.200 0.340 rg
+BT /F2 11.50 Tf 1 0 0 1 68.00 167.89 Tm (Report purpose) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 11.00 Tf 1 0 0 1 68.00 151.89 Tm (Explain how the repository works, what its tests establish, and where careful human) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 11.00 Tf 1 0 0 1 68.00 136.89 Tm (oversight and further evaluation would be required.) Tj ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 12 0 R >>
+endobj
+12 0 obj
+<< /Length 4817 >>
+stream
+0.360 0.400 0.450 rg
+BT /F2 8.50 Tf 1 0 0 1 54.00 812.89 Tm (RECRUITMENT SCREENING AND INTERVIEW SCHEDULING PIPELINE) Tj ET
+0.800 0.840 0.880 RG
+0.60 w 54.00 800.89 m 541.28 800.89 l S
+0.800 0.840 0.880 RG
+0.60 w 54.00 43.00 m 541.28 43.00 l S
+0.360 0.400 0.450 rg
+BT /F1 8.50 Tf 1 0 0 1 54.00 25.00 Tm (University project report | 15 November 2026) Tj ET
+0.360 0.400 0.450 rg
+BT /F2 9.00 Tf 1 0 0 1 513.28 25.00 Tm (4) Tj ET
+0.100 0.200 0.340 rg
+BT /F2 15.00 Tf 1 0 0 1 54.00 761.89 Tm (1. Introduction and project objectives) Tj ET
+0.360 0.400 0.450 rg
+BT /F1 10.50 Tf 1 0 0 1 54.00 736.89 Tm (Problem context, intended use, and boundaries) Tj ET
+0.160 0.360 0.580 rg
+BT /F2 13.20 Tf 1 0 0 1 54.00 710.89 Tm (1.1 Problem context) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 687.89 Tm (Recruitment screening involves comparing applicant information with role) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 669.89 Tm (requirements, explaining why a profile appears to match, and coordinating follow-up.) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 651.89 Tm (A software prototype can make these steps visible and repeatable, but it can also) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 633.89 Tm (create false confidence if a numerical score is treated as an objective judgment. This) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 615.89 Tm (project explores how to represent screening as a sequence of small, inspectable) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 597.89 Tm (operations rather than one opaque function.) Tj ET
+0.160 0.360 0.580 rg
+BT /F2 13.20 Tf 1 0 0 1 54.00 569.89 Tm (1.2 Project aim and objectives) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 546.89 Tm (The aim is to demonstrate an end-to-end pipeline that accepts a job description, a) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 528.89 Tm (list of resume texts, and optional interview slots, then returns candidate profiles,) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 510.89 Tm (requirement evidence, a ranking, review flags, scheduling outcomes, and a trace of) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 492.89 Tm (stages. The implementation objectives are to:) Tj ET
+0.110 0.480 0.510 rg
+BT /F2 13.00 Tf 1 0 0 1 57.00 465.89 Tm (-) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 12.50 Tf 1 0 0 1 73.00 465.89 Tm (Extract a small, job-relevant profile without carrying raw resume text into later) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 12.50 Tf 1 0 0 1 73.00 448.89 Tm (stages.) Tj ET
+0.110 0.480 0.510 rg
+BT /F2 13.00 Tf 1 0 0 1 57.00 426.89 Tm (-) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 12.50 Tf 1 0 0 1 73.00 426.89 Tm (Score profiles against named requirements and retain a short evidence statement) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 12.50 Tf 1 0 0 1 73.00 409.89 Tm (for each result.) Tj ET
+0.110 0.480 0.510 rg
+BT /F2 13.00 Tf 1 0 0 1 57.00 387.89 Tm (-) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 12.50 Tf 1 0 0 1 73.00 387.89 Tm (Review a limited set of ranking inputs for protected-attribute signals and exclude) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 12.50 Tf 1 0 0 1 73.00 370.89 Tm (flagged requirements.) Tj ET
+0.110 0.480 0.510 rg
+BT /F2 13.00 Tf 1 0 0 1 57.00 348.89 Tm (-) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 12.50 Tf 1 0 0 1 73.00 348.89 Tm (Schedule only within the top-N cutoff and reserve each assigned slot through a) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 12.50 Tf 1 0 0 1 73.00 331.89 Tm (separate availability tool.) Tj ET
+0.110 0.480 0.510 rg
+BT /F2 13.00 Tf 1 0 0 1 57.00 309.89 Tm (-) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 12.50 Tf 1 0 0 1 73.00 309.89 Tm (Test representative success and edge cases using the repository test suite.) Tj ET
+0.160 0.360 0.580 rg
+BT /F2 13.20 Tf 1 0 0 1 54.00 286.89 Tm (1.3 Intended use and non-goals) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 263.89 Tm (The intended use is a classroom demonstration of modular orchestration, scoring) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 245.89 Tm (logic, evidence handling, and scheduling. It is not designed to make, recommend, or) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 227.89 Tm (automate an employment decision. It does not provide legal compliance, validated) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 209.89 Tm (job analysis, comprehensive resume understanding, demographic fairness) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 191.89 Tm (measurement, or secure applicant-data management. Any realistic use would) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 173.89 Tm (require substantially more governance, validation, privacy controls, accessibility) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 155.89 Tm (review, and human decision-making.) Tj ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 14 0 R >>
+endobj
+14 0 obj
+<< /Length 4892 >>
+stream
+0.360 0.400 0.450 rg
+BT /F2 8.50 Tf 1 0 0 1 54.00 812.89 Tm (RECRUITMENT SCREENING AND INTERVIEW SCHEDULING PIPELINE) Tj ET
+0.800 0.840 0.880 RG
+0.60 w 54.00 800.89 m 541.28 800.89 l S
+0.800 0.840 0.880 RG
+0.60 w 54.00 43.00 m 541.28 43.00 l S
+0.360 0.400 0.450 rg
+BT /F1 8.50 Tf 1 0 0 1 54.00 25.00 Tm (University project report | 15 November 2026) Tj ET
+0.360 0.400 0.450 rg
+BT /F2 9.00 Tf 1 0 0 1 513.28 25.00 Tm (5) Tj ET
+0.100 0.200 0.340 rg
+BT /F2 15.00 Tf 1 0 0 1 54.00 761.89 Tm (2. Background and design rationale) Tj ET
+0.360 0.400 0.450 rg
+BT /F1 10.50 Tf 1 0 0 1 54.00 736.89 Tm (Why separate stages, and what Semantic Kernel contributes) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 711.89 Tm (Semantic Kernel is a development kit for integrating application code and AI-oriented) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 693.89 Tm (workflows across languages. Its plugin model can expose existing functions through) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 675.89 Tm (a common kernel interface [1]. This repository uses that mechanism for modularity) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 657.89 Tm (and invocation, but the business logic in the five stages is ordinary deterministic) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 639.89 Tm (Python. There is no prompt-based model call in the current coordinator. Calling the) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 621.89 Tm (design "multi-agent" describes its separated stage roles; it should not be confused) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 603.89 Tm (with autonomous model agents reasoning independently.) Tj ET
+0.160 0.360 0.580 rg
+BT /F2 13.20 Tf 1 0 0 1 54.00 575.89 Tm (2.1 Stage separation) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 552.89 Tm (Each stage has a narrow responsibility and reads or updates a shared) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 534.89 Tm (JSON-compatible state. The parser establishes a minimal profile; the matcher) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 516.89 Tm (attaches requirement outcomes; the ranker orders candidates; the reviewer can) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 498.89 Tm (remove unsuitable criteria and recompute scores; and the scheduler adds interview) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 480.89 Tm (assignments. Separation makes the sequence easier to inspect and gives each) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 462.89 Tm (responsibility a natural test boundary. It also creates orchestration overhead: the) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 444.89 Tm (coordinator serializes state for each invocation, parses the returned JSON, and) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 426.89 Tm (records a trace entry.) Tj ET
+0.160 0.360 0.580 rg
+BT /F2 13.20 Tf 1 0 0 1 54.00 398.89 Tm (2.2 Determinism and explainability) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 375.89 Tm (For fixed inputs, these local functions follow explicit rules rather than stochastic) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 357.89 Tm (model generation. Requirement results contain a match flag and evidence string,) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 339.89 Tm (and the score is derived from requirement weights. This makes the example outputs) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 321.89 Tm (reproducible and relatively easy to audit. Determinism does not establish that the) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 303.89 Tm (chosen vocabulary, weights, or thresholds are appropriate. A consistently applied) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 285.89 Tm (rule can still be incomplete, unfair, or poorly aligned with a role.) Tj ET
+0.160 0.360 0.580 rg
+BT /F2 13.20 Tf 1 0 0 1 54.00 257.89 Tm (2.3 Trade-offs) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 234.89 Tm (The bounded parser avoids making claims that the code cannot support, such as) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 216.89 Tm (inferring a duration from employment dates. The cost is reduced recall: equivalent) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 198.89 Tm (wording, unusual terminology, international degree labels, and context may be) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 180.89 Tm (missed. Similarly, a rule-based protected-term review is easy to understand but) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 162.89 Tm (cannot recognize every proxy or indirect form of discrimination. These trade-offs are) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 144.89 Tm (appropriate to describe as prototype constraints, not as solved research problems.) Tj ET
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 16 0 R >>
+endobj
+16 0 obj
+<< /Length 5834 >>
+stream
+0.360 0.400 0.450 rg
+BT /F2 8.50 Tf 1 0 0 1 54.00 812.89 Tm (RECRUITMENT SCREENING AND INTERVIEW SCHEDULING PIPELINE) Tj ET
+0.800 0.840 0.880 RG
+0.60 w 54.00 800.89 m 541.28 800.89 l S
+0.800 0.840 0.880 RG
+0.60 w 54.00 43.00 m 541.28 43.00 l S
+0.360 0.400 0.450 rg
+BT /F1 8.50 Tf 1 0 0 1 54.00 25.00 Tm (University project report | 15 November 2026) Tj ET
+0.360 0.400 0.450 rg
+BT /F2 9.00 Tf 1 0 0 1 513.28 25.00 Tm (6) Tj ET
+0.100 0.200 0.340 rg
+BT /F2 15.00 Tf 1 0 0 1 54.00 761.89 Tm (3. Requirements and scope) Tj ET
+0.360 0.400 0.450 rg
+BT /F1 10.50 Tf 1 0 0 1 54.00 736.89 Tm (Inputs, outputs, assumptions, and quality goals) Tj ET
+0.160 0.360 0.580 rg
+BT /F2 13.20 Tf 1 0 0 1 54.00 710.89 Tm (3.1 Functional requirements) Tj ET
+0.100 0.200 0.340 rg
+54.00 674.39 487.28 24.50 re f
+1.000 1.000 1.000 rg
+BT /F2 10.20 Tf 1 0 0 1 60.00 687.89 Tm (Area) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 10.20 Tf 1 0 0 1 152.00 687.89 Tm (Implemented behavior) Tj ET
+0.960 0.970 0.980 rg
+54.00 656.89 487.28 24.50 re f
+0.150 0.180 0.220 rg
+BT /F1 10.00 Tf 1 0 0 1 60.00 671.39 Tm (Input) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 10.00 Tf 1 0 0 1 152.00 671.39 Tm (Accept a job object with named requirements and resumes identified by candidate ID.) Tj ET
+0.800 0.840 0.880 RG
+0.40 w 54.00 652.89 m 541.28 652.89 l S
+0.150 0.180 0.220 rg
+BT /F1 10.00 Tf 1 0 0 1 60.00 654.89 Tm (Profile) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 10.00 Tf 1 0 0 1 152.00 654.89 Tm (Extract recognized skill and education labels, plus explicit numeric experience) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 10.00 Tf 1 0 0 1 152.00 642.39 Tm (duration.) Tj ET
+0.800 0.840 0.880 RG
+0.40 w 54.00 623.89 m 541.28 623.89 l S
+0.960 0.970 0.980 rg
+54.00 598.89 487.28 37.00 re f
+0.150 0.180 0.220 rg
+BT /F1 10.00 Tf 1 0 0 1 60.00 625.89 Tm (Match) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 10.00 Tf 1 0 0 1 152.00 625.89 Tm (Compare supported requirement kinds and attach evidence for matched and unmet) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 10.00 Tf 1 0 0 1 152.00 613.39 Tm (requirements.) Tj ET
+0.800 0.840 0.880 RG
+0.40 w 54.00 594.89 m 541.28 594.89 l S
+0.150 0.180 0.220 rg
+BT /F1 10.00 Tf 1 0 0 1 60.00 596.89 Tm (Score and rank) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 10.00 Tf 1 0 0 1 152.00 596.89 Tm (Calculate weighted percentage scores; sort by descending score and candidate ID for) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 10.00 Tf 1 0 0 1 152.00 584.39 Tm (ties.) Tj ET
+0.800 0.840 0.880 RG
+0.40 w 54.00 565.89 m 541.28 565.89 l S
+0.960 0.970 0.980 rg
+54.00 540.89 487.28 37.00 re f
+0.150 0.180 0.220 rg
+BT /F1 10.00 Tf 1 0 0 1 60.00 567.89 Tm (Review) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 10.00 Tf 1 0 0 1 152.00 567.89 Tm (Inspect rationale, declared scored fields, and requirement name/expected value for) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 10.00 Tf 1 0 0 1 152.00 555.39 Tm (listed terms.) Tj ET
+0.800 0.840 0.880 RG
+0.40 w 54.00 536.89 m 541.28 536.89 l S
+0.150 0.180 0.220 rg
+BT /F1 10.00 Tf 1 0 0 1 60.00 538.89 Tm (Schedule) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 10.00 Tf 1 0 0 1 152.00 538.89 Tm (Assign listed slots to top-N candidates, then reserve assigned slots in the availability) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 10.00 Tf 1 0 0 1 152.00 526.39 Tm (tool.) Tj ET
+0.800 0.840 0.880 RG
+0.40 w 54.00 507.89 m 541.28 507.89 l S
+0.960 0.970 0.980 rg
+54.00 495.39 487.28 24.50 re f
+0.150 0.180 0.220 rg
+BT /F1 10.00 Tf 1 0 0 1 60.00 509.89 Tm (Trace) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 10.00 Tf 1 0 0 1 152.00 509.89 Tm (Return an ordered trace of agent processing and slot listing/reservation actions.) Tj ET
+0.800 0.840 0.880 RG
+0.40 w 54.00 491.39 m 541.28 491.39 l S
+0.160 0.360 0.580 rg
+BT /F2 13.20 Tf 1 0 0 1 54.00 488.39 Tm (3.2 Scope and assumptions) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 465.39 Tm (The implemented parser supports a finite skill vocabulary and a small set of) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 447.39 Tm (education labels. Experience is accepted only when a numeric duration is explicitly) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 429.39 Tm (expressed in years or years-abbreviation form. Requirements are expected to use) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 411.39 Tm (supported kinds such as skill, experience, or education, and to provide values that) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 393.39 Tm (can be compared by the relevant branch. Weights are converted to numbers and) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 375.39 Tm (negative values are treated as zero. Malformed structures or non-numeric) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 357.39 Tm (requirement values are not a supported input contract and may cause errors.) Tj ET
+0.160 0.360 0.580 rg
+BT /F2 13.20 Tf 1 0 0 1 54.00 329.39 Tm (3.3 Quality goals and exclusions) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 306.39 Tm (The prototype prioritizes inspectability, predictable execution, minimal shared profile) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 288.39 Tm (data, and a runnable local demo. The availability store is in memory; no database,) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 270.39 Tm (web API, authentication, user interface, role-based access, data retention system, or) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 252.39 Tm (production logging policy is included. The project does not define a validated) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 234.39 Tm (job-specific scoring rubric, nor does it test performance or fairness across a) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 216.39 Tm (representative applicant population. These exclusions should be addressed before) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 198.39 Tm (any operational deployment.) Tj ET
+endstream
+endobj
+17 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 18 0 R >>
+endobj
+18 0 obj
+<< /Length 6542 >>
+stream
+0.360 0.400 0.450 rg
+BT /F2 8.50 Tf 1 0 0 1 54.00 812.89 Tm (RECRUITMENT SCREENING AND INTERVIEW SCHEDULING PIPELINE) Tj ET
+0.800 0.840 0.880 RG
+0.60 w 54.00 800.89 m 541.28 800.89 l S
+0.800 0.840 0.880 RG
+0.60 w 54.00 43.00 m 541.28 43.00 l S
+0.360 0.400 0.450 rg
+BT /F1 8.50 Tf 1 0 0 1 54.00 25.00 Tm (University project report | 15 November 2026) Tj ET
+0.360 0.400 0.450 rg
+BT /F2 9.00 Tf 1 0 0 1 513.28 25.00 Tm (7) Tj ET
+0.100 0.200 0.340 rg
+BT /F2 15.00 Tf 1 0 0 1 54.00 761.89 Tm (4. System architecture and workflow) Tj ET
+0.360 0.400 0.450 rg
+BT /F1 10.50 Tf 1 0 0 1 54.00 736.89 Tm (Coordinator, stage plugins, shared state, and availability tool) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 711.89 Tm (The coordinator constructs a Semantic Kernel instance and registers the five stage) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 693.89 Tm (classes as plugins. It also registers an availability plugin. During a run, it creates an) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 675.89 Tm (isolated in-memory state containing a deep copy of the job and resumes, an empty) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 657.89 Tm (candidate pool, and a non-negative top-N value. The state is serialized to JSON and) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 639.89 Tm (passed to each stage function in sequence.) Tj ET
+0.920 0.950 0.980 rg
+0.800 0.840 0.880 RG
+0.70 w 54.00 572.89 76.21 40.00 re B
+0.100 0.200 0.340 rg
+BT /F2 9.30 Tf 1 0 0 1 59.00 597.89 Tm (Input) Tj ET
+0.360 0.400 0.450 rg
+BT /F1 7.50 Tf 1 0 0 1 59.00 583.89 Tm (job + resumes) Tj ET
+0.110 0.480 0.510 RG
+1.00 w 131.21 592.89 m 135.21 592.89 l S
+0.110 0.480 0.510 RG
+1.00 w 133.21 594.89 m 135.21 592.89 l S
+0.110 0.480 0.510 RG
+1.00 w 133.21 590.89 m 135.21 592.89 l S
+0.960 0.970 0.980 rg
+0.800 0.840 0.880 RG
+0.70 w 136.21 572.89 76.21 40.00 re B
+0.100 0.200 0.340 rg
+BT /F2 9.30 Tf 1 0 0 1 141.21 597.89 Tm (Parser) Tj ET
+0.360 0.400 0.450 rg
+BT /F1 7.50 Tf 1 0 0 1 141.21 583.89 Tm (minimal profiles) Tj ET
+0.110 0.480 0.510 RG
+1.00 w 213.43 592.89 m 217.43 592.89 l S
+0.110 0.480 0.510 RG
+1.00 w 215.43 594.89 m 217.43 592.89 l S
+0.110 0.480 0.510 RG
+1.00 w 215.43 590.89 m 217.43 592.89 l S
+0.920 0.950 0.980 rg
+0.800 0.840 0.880 RG
+0.70 w 218.43 572.89 76.21 40.00 re B
+0.100 0.200 0.340 rg
+BT /F2 9.30 Tf 1 0 0 1 223.43 597.89 Tm (Matcher) Tj ET
+0.360 0.400 0.450 rg
+BT /F1 7.50 Tf 1 0 0 1 223.43 583.89 Tm (evidence + scores) Tj ET
+0.110 0.480 0.510 RG
+1.00 w 295.64 592.89 m 299.64 592.89 l S
+0.110 0.480 0.510 RG
+1.00 w 297.64 594.89 m 299.64 592.89 l S
+0.110 0.480 0.510 RG
+1.00 w 297.64 590.89 m 299.64 592.89 l S
+0.960 0.970 0.980 rg
+0.800 0.840 0.880 RG
+0.70 w 300.64 572.89 76.21 40.00 re B
+0.100 0.200 0.340 rg
+BT /F2 9.30 Tf 1 0 0 1 305.64 597.89 Tm (Ranker) Tj ET
+0.360 0.400 0.450 rg
+BT /F1 7.50 Tf 1 0 0 1 305.64 583.89 Tm (order + rationale) Tj ET
+0.110 0.480 0.510 RG
+1.00 w 377.85 592.89 m 381.85 592.89 l S
+0.110 0.480 0.510 RG
+1.00 w 379.85 594.89 m 381.85 592.89 l S
+0.110 0.480 0.510 RG
+1.00 w 379.85 590.89 m 381.85 592.89 l S
+0.920 0.950 0.980 rg
+0.800 0.840 0.880 RG
+0.70 w 382.85 572.89 76.21 40.00 re B
+0.100 0.200 0.340 rg
+BT /F2 9.30 Tf 1 0 0 1 387.85 597.89 Tm (Reviewer) Tj ET
+0.360 0.400 0.450 rg
+BT /F1 7.50 Tf 1 0 0 1 387.85 583.89 Tm (review + rescore) Tj ET
+0.110 0.480 0.510 RG
+1.00 w 460.07 592.89 m 464.07 592.89 l S
+0.110 0.480 0.510 RG
+1.00 w 462.07 594.89 m 464.07 592.89 l S
+0.110 0.480 0.510 RG
+1.00 w 462.07 590.89 m 464.07 592.89 l S
+0.960 0.970 0.980 rg
+0.800 0.840 0.880 RG
+0.70 w 465.07 572.89 76.21 40.00 re B
+0.100 0.200 0.340 rg
+BT /F2 9.30 Tf 1 0 0 1 470.07 597.89 Tm (Scheduler) Tj ET
+0.360 0.400 0.450 rg
+BT /F1 7.50 Tf 1 0 0 1 470.07 583.89 Tm (slot assignment) Tj ET
+0.360 0.400 0.450 rg
+BT /F1 9.50 Tf 1 0 0 1 56.00 560.89 Tm (Shared JSON state moves through the agents; the coordinator obtains and reserves slots.) Tj ET
+0.160 0.360 0.580 rg
+BT /F2 13.20 Tf 1 0 0 1 54.00 534.89 Tm (4.1 Execution sequence) Tj ET
+0.110 0.480 0.510 rg
+BT /F2 13.00 Tf 1 0 0 1 57.00 511.89 Tm (-) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 12.50 Tf 1 0 0 1 73.00 511.89 Tm (Parser replaces resume inputs with compact candidate profiles and removes the) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 12.50 Tf 1 0 0 1 73.00 494.89 Tm (resumes key.) Tj ET
+0.110 0.480 0.510 rg
+BT /F2 13.00 Tf 1 0 0 1 57.00 474.89 Tm (-) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 12.50 Tf 1 0 0 1 73.00 474.89 Tm (Matcher adds per-requirement results, evidence, scores, and the declared) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 12.50 Tf 1 0 0 1 73.00 457.89 Tm (scored-field list.) Tj ET
+0.110 0.480 0.510 rg
+BT /F2 13.00 Tf 1 0 0 1 57.00 437.89 Tm (-) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 12.50 Tf 1 0 0 1 73.00 437.89 Tm (Ranker orders candidates and generates a rationale; Reviewer can exclude flagged) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 12.50 Tf 1 0 0 1 73.00 420.89 Tm (criteria and re-rank.) Tj ET
+0.110 0.480 0.510 rg
+BT /F2 13.00 Tf 1 0 0 1 57.00 400.89 Tm (-) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 12.50 Tf 1 0 0 1 73.00 400.89 Tm (Coordinator lists free slots; Scheduler assigns them to eligible ranks; coordinator) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 12.50 Tf 1 0 0 1 73.00 383.89 Tm (reserves each assignment.) Tj ET
+0.110 0.480 0.510 rg
+BT /F2 13.00 Tf 1 0 0 1 57.00 363.89 Tm (-) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 12.50 Tf 1 0 0 1 73.00 363.89 Tm (Unsuccessful reservations are cleared, temporary available_slots is removed, and) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 12.50 Tf 1 0 0 1 73.00 346.89 Tm (state plus trace is returned.) Tj ET
+0.160 0.360 0.580 rg
+BT /F2 13.20 Tf 1 0 0 1 54.00 325.89 Tm (4.2 Architectural boundary) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 302.89 Tm (The coordinator owns orchestration and slot reservation; agents own) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 284.89 Tm (transformations of the candidate pool. The availability tool owns reservation state,) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 266.89 Tm (but only for the lifetime of its object. Each agent returns serialized state, which the) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 248.89 Tm (coordinator decodes and replaces. This is straightforward for a small demo, though) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 230.89 Tm (a larger system would benefit from explicit schemas, validation at stage boundaries,) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 212.89 Tm (and clearer error reporting for malformed payloads.) Tj ET
+endstream
+endobj
+19 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 20 0 R >>
+endobj
+20 0 obj
+<< /Length 4843 >>
+stream
+0.360 0.400 0.450 rg
+BT /F2 8.50 Tf 1 0 0 1 54.00 812.89 Tm (RECRUITMENT SCREENING AND INTERVIEW SCHEDULING PIPELINE) Tj ET
+0.800 0.840 0.880 RG
+0.60 w 54.00 800.89 m 541.28 800.89 l S
+0.800 0.840 0.880 RG
+0.60 w 54.00 43.00 m 541.28 43.00 l S
+0.360 0.400 0.450 rg
+BT /F1 8.50 Tf 1 0 0 1 54.00 25.00 Tm (University project report | 15 November 2026) Tj ET
+0.360 0.400 0.450 rg
+BT /F2 9.00 Tf 1 0 0 1 513.28 25.00 Tm (8) Tj ET
+0.100 0.200 0.340 rg
+BT /F2 15.00 Tf 1 0 0 1 54.00 761.89 Tm (5. Parsing and requirement matching) Tj ET
+0.360 0.400 0.450 rg
+BT /F1 10.50 Tf 1 0 0 1 54.00 736.89 Tm (Evidence extraction and weighted scoring) Tj ET
+0.160 0.360 0.580 rg
+BT /F2 13.20 Tf 1 0 0 1 54.00 710.89 Tm (5.1 Parser behavior) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 687.89 Tm (The parser scans resume text case-insensitively against a fixed vocabulary,) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 669.89 Tm (including skills such as Python, SQL, Excel, Tableau, Power BI, Azure, Java, C#,) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 651.89 Tm (and AWS. It also recognizes a limited set of degree expressions and a numeric) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 633.89 Tm (duration followed by "year\(s\)" or "yr\(s\)". The extracted profile contains candidate_id,) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 615.89 Tm (skills, experience_years, and education. It does not retain the original text in the) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 597.89 Tm (shared state after parsing. If no explicit duration is found, experience_years is null.) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 570.89 Tm (This method is intentionally bounded, but it is not semantic resume parsing. The) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 552.89 Tm (parser does not resolve negation, distinguish levels of proficiency, infer that "worked) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 534.89 Tm (from 2020 to 2024" means four years, or comprehensively interpret equivalent) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 516.89 Tm (degree names. Matching a term shows only that the string was detected; it does not) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 498.89 Tm (prove competency or recency.) Tj ET
+0.160 0.360 0.580 rg
+BT /F2 13.20 Tf 1 0 0 1 54.00 470.89 Tm (5.2 Matcher behavior) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 447.89 Tm (For each profile, the matcher loops through the job requirements. Skill and education) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 429.89 Tm (requirements accept a single expected value or a list and compare values) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 411.89 Tm (case-insensitively with extracted fields. Experience requirements convert the) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 393.89 Tm (expected threshold to a number and check whether an explicitly extracted value) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 375.89 Tm (meets it. Unsupported kinds produce an unmet result with explanatory evidence.) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 357.89 Tm (Each result records the requirement name, kind, expected value, non-negative) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 339.89 Tm (weight, match flag, and evidence text.) Tj ET
+0.160 0.360 0.580 rg
+BT /F2 13.20 Tf 1 0 0 1 54.00 311.89 Tm (5.3 Score calculation) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 288.89 Tm (The score is 100 multiplied by the sum of weights for matched requirements divided) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 270.89 Tm (by the sum of all non-negative requirement weights; it is rounded to one decimal) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 252.89 Tm (place. If total weight is zero, the score is zero. This is a transparent arithmetic) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 234.89 Tm (summary of the configured rubric, not a probability of success or an estimate of job) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 216.89 Tm (performance. Weight selection directly changes the result and therefore needs) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 198.89 Tm (justification outside the code.) Tj ET
+0.920 0.950 0.980 rg
+54.00 125.89 487.28 58.00 re f
+0.110 0.480 0.510 rg
+54.00 125.89 4.00 58.00 re f
+0.100 0.200 0.340 rg
+BT /F2 11.50 Tf 1 0 0 1 68.00 167.89 Tm (Evidence rule) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 11.00 Tf 1 0 0 1 68.00 151.89 Tm (The experience test does not grant credit from dates alone. Missing duration remains) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 11.00 Tf 1 0 0 1 68.00 136.89 Tm (unknown and is not treated as an inferred qualification.) Tj ET
+endstream
+endobj
+21 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 22 0 R >>
+endobj
+22 0 obj
+<< /Length 4701 >>
+stream
+0.360 0.400 0.450 rg
+BT /F2 8.50 Tf 1 0 0 1 54.00 812.89 Tm (RECRUITMENT SCREENING AND INTERVIEW SCHEDULING PIPELINE) Tj ET
+0.800 0.840 0.880 RG
+0.60 w 54.00 800.89 m 541.28 800.89 l S
+0.800 0.840 0.880 RG
+0.60 w 54.00 43.00 m 541.28 43.00 l S
+0.360 0.400 0.450 rg
+BT /F1 8.50 Tf 1 0 0 1 54.00 25.00 Tm (University project report | 15 November 2026) Tj ET
+0.360 0.400 0.450 rg
+BT /F2 9.00 Tf 1 0 0 1 513.28 25.00 Tm (9) Tj ET
+0.100 0.200 0.340 rg
+BT /F2 15.00 Tf 1 0 0 1 54.00 761.89 Tm (6. Ranking and bias review) Tj ET
+0.360 0.400 0.450 rg
+BT /F1 10.50 Tf 1 0 0 1 54.00 736.89 Tm (Tie-breaking, rationale generation, and review limits) Tj ET
+0.160 0.360 0.580 rg
+BT /F2 13.20 Tf 1 0 0 1 54.00 710.89 Tm (6.1 Ranking and rationale) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 687.89 Tm (The ranker sorts the candidate pool by descending numeric score and then by) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 669.89 Tm (candidate ID as a deterministic tie-breaker. It assigns one-based ranks and) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 651.89 Tm (generates a short rationale from the names of matched requirements and the score.) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 633.89 Tm (If no requirements were matched, it reports that no listed requirements were) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 615.89 Tm (evidenced. The rationale is derived from the matcher output rather than from) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 597.89 Tm (independent review of the resume.) Tj ET
+0.160 0.360 0.580 rg
+BT /F2 13.20 Tf 1 0 0 1 54.00 569.89 Tm (6.2 Reviewer checks) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 546.89 Tm (The reviewer checks the rationale for terms in a fixed protected-term list, compares) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 528.89 Tm (scored_fields with the allow-list of skills, experience_years, and education, and) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 510.89 Tm (inspects each requirement name and expected value for those terms. Unexpected) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 492.89 Tm (scored fields are removed from the declared list. A requirement whose text contains) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 474.89 Tm (a listed term is marked unmatched and its evidence is replaced with an exclusion) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 456.89 Tm (explanation. The score is recalculated from the remaining eligible requirement) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 438.89 Tm (weights, then the pool is sorted and ranks are updated.) Tj ET
+0.160 0.360 0.580 rg
+BT /F2 13.20 Tf 1 0 0 1 54.00 410.89 Tm (6.3 What the safeguard does not establish) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 387.89 Tm (These checks are a small defense-in-depth demonstration, not a complete bias) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 369.89 Tm (audit. A term list can miss synonyms, context, proxy variables, intersections, or) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 351.89 Tm (discriminatory criteria expressed without a listed word. The reviewer does not) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 333.89 Tm (calculate group-level outcomes, validate whether requirements are job-related, audit) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 315.89 Tm (historical data, or test disparate impact. It also inspects selected text and a declared) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 297.89 Tm (field list, not the full causal path of a production ranking system. The pass flag) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 279.89 Tm (means only that these implemented checks found no listed issue in that profile.) Tj ET
+0.160 0.360 0.580 rg
+BT /F2 13.20 Tf 1 0 0 1 54.00 251.89 Tm (6.4 Practical reading of a flag) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 228.89 Tm (A failed review is useful as a signal to investigate, not as proof that the rest of the) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 210.89 Tm (profile is unbiased. A passing review should not be presented as certification. In a) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 192.89 Tm (real process, requirements should be approved before screening, changes should) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 174.89 Tm (be logged, applicants should receive appropriate notice, and qualified human) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 156.89 Tm (reviewers should remain responsible for consequential decisions.) Tj ET
+endstream
+endobj
+23 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 24 0 R >>
+endobj
+24 0 obj
+<< /Length 4525 >>
+stream
+0.360 0.400 0.450 rg
+BT /F2 8.50 Tf 1 0 0 1 54.00 812.89 Tm (RECRUITMENT SCREENING AND INTERVIEW SCHEDULING PIPELINE) Tj ET
+0.800 0.840 0.880 RG
+0.60 w 54.00 800.89 m 541.28 800.89 l S
+0.800 0.840 0.880 RG
+0.60 w 54.00 43.00 m 541.28 43.00 l S
+0.360 0.400 0.450 rg
+BT /F1 8.50 Tf 1 0 0 1 54.00 25.00 Tm (University project report | 15 November 2026) Tj ET
+0.360 0.400 0.450 rg
+BT /F2 9.00 Tf 1 0 0 1 513.28 25.00 Tm (10) Tj ET
+0.100 0.200 0.340 rg
+BT /F2 15.00 Tf 1 0 0 1 54.00 761.89 Tm (7. Shared state, trace, and scheduling) Tj ET
+0.360 0.400 0.450 rg
+BT /F1 10.50 Tf 1 0 0 1 54.00 736.89 Tm (Data lifecycle and slot reservation behavior) Tj ET
+0.160 0.360 0.580 rg
+BT /F2 13.20 Tf 1 0 0 1 54.00 710.89 Tm (7.1 Shared state and trace) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 687.89 Tm (PipelineMemory deep-copies the initial state, serializes it to JSON for each stage,) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 669.89 Tm (replaces it with the stage result, and appends trace events. The trace records each) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 651.89 Tm (agent name and candidate count, the number of available slots returned, and the) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 633.89 Tm (outcome of each reservation attempt. After scheduling, the coordinator removes) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 615.89 Tm (available_slots from the final state. The final result therefore includes the job) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 597.89 Tm (configuration, candidate pool, top_n, and trace, but not the original resume list.) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 570.89 Tm (The raw resume string is removed from the shared state after parsing, which) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 552.89 Tm (reduces its propagation through later stages. This is not equivalent to secure) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 534.89 Tm (deletion: the original input exists during the run, and the code does not define) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 516.89 Tm (memory wiping, retention, access controls, or external logging. The repository has) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 498.89 Tm (no persistent database, but a production host could still retain process memory,) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 480.89 Tm (crash dumps, or surrounding application logs.) Tj ET
+0.160 0.360 0.580 rg
+BT /F2 13.20 Tf 1 0 0 1 54.00 452.89 Tm (7.2 Scheduling) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 429.89 Tm (The coordinator obtains a snapshot of currently unreserved slots before invoking the) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 411.89 Tm (scheduler. The scheduler initializes every candidate's interview_slot to null and) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 393.89 Tm (assigns slots in ranked order only where rank is at most top_n. It then stops) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 375.89 Tm (assigning when the supplied slots are exhausted. The coordinator attempts) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 357.89 Tm (reservations sequentially; if a reservation fails, it clears that candidate's assignment.) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 339.89 Tm (This provides a final check against duplicate reservations within the in-memory tool.) Tj ET
+0.160 0.360 0.580 rg
+BT /F2 13.20 Tf 1 0 0 1 54.00 311.89 Tm (7.3 Concurrency and operational limits) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 288.89 Tm (The availability tool stores reservations in a Python set without persistence, locking,) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 270.89 Tm (or coordination across processes. The coordinator's sequential reservations are) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 252.89 Tm (adequate for the single-run demonstration, but concurrent runs or multiple) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 234.89 Tm (application instances could race or disagree about availability. A deployed scheduler) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 216.89 Tm (would require an atomic reservation service, stable time-zone handling, conflict) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 198.89 Tm (rules, cancellation support, audit records, and explicit handling of failed reservations.) Tj ET
+endstream
+endobj
+25 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 26 0 R >>
+endobj
+26 0 obj
+<< /Length 5053 >>
+stream
+0.360 0.400 0.450 rg
+BT /F2 8.50 Tf 1 0 0 1 54.00 812.89 Tm (RECRUITMENT SCREENING AND INTERVIEW SCHEDULING PIPELINE) Tj ET
+0.800 0.840 0.880 RG
+0.60 w 54.00 800.89 m 541.28 800.89 l S
+0.800 0.840 0.880 RG
+0.60 w 54.00 43.00 m 541.28 43.00 l S
+0.360 0.400 0.450 rg
+BT /F1 8.50 Tf 1 0 0 1 54.00 25.00 Tm (University project report | 15 November 2026) Tj ET
+0.360 0.400 0.450 rg
+BT /F2 9.00 Tf 1 0 0 1 513.28 25.00 Tm (11) Tj ET
+0.100 0.200 0.340 rg
+BT /F2 15.00 Tf 1 0 0 1 54.00 761.89 Tm (8. Implementation and execution) Tj ET
+0.360 0.400 0.450 rg
+BT /F1 10.50 Tf 1 0 0 1 54.00 736.89 Tm (Repository structure and reproducible local commands) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 711.89 Tm (The repository is deliberately small. The pipeline package contains the coordinator,) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 693.89 Tm (shared memory helper, availability tool, and agent modules; tests cover end-to-end) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 675.89 Tm (behavior; a notebook demonstrates example runs; and the README documents the) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 657.89 Tm (purpose and setup. requirements.txt declares Semantic Kernel in the 1.x range. The) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 639.89 Tm (agent implementations use decorated Python functions registered as kernel plugins.) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 621.89 Tm (The design keeps each stage in its own file while centralizing ordering in the) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 603.89 Tm (coordinator.) Tj ET
+0.160 0.360 0.580 rg
+BT /F2 13.20 Tf 1 0 0 1 54.00 575.89 Tm (8.1 Run locally) Tj ET
+0.100 0.200 0.340 rg
+54.00 539.39 487.28 24.50 re f
+1.000 1.000 1.000 rg
+BT /F2 10.20 Tf 1 0 0 1 60.00 552.89 Tm (Step) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 10.20 Tf 1 0 0 1 146.00 552.89 Tm (Command or action) Tj ET
+0.960 0.970 0.980 rg
+54.00 520.89 487.28 25.50 re f
+0.150 0.180 0.220 rg
+BT /F1 10.50 Tf 1 0 0 1 60.00 536.39 Tm (Install) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 10.50 Tf 1 0 0 1 146.00 536.39 Tm (python -m pip install -r requirements.txt) Tj ET
+0.800 0.840 0.880 RG
+0.40 w 54.00 516.89 m 541.28 516.89 l S
+0.150 0.180 0.220 rg
+BT /F1 10.50 Tf 1 0 0 1 60.00 518.89 Tm (Test) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 10.50 Tf 1 0 0 1 146.00 518.89 Tm (python -m unittest discover -s tests -v) Tj ET
+0.800 0.840 0.880 RG
+0.40 w 54.00 499.39 m 541.28 499.39 l S
+0.960 0.970 0.980 rg
+54.00 485.89 487.28 25.50 re f
+0.150 0.180 0.220 rg
+BT /F1 10.50 Tf 1 0 0 1 60.00 501.39 Tm (Demo) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 10.50 Tf 1 0 0 1 146.00 501.39 Tm (Open and run demo.ipynb in a Python notebook environment.) Tj ET
+0.800 0.840 0.880 RG
+0.40 w 54.00 481.89 m 541.28 481.89 l S
+0.160 0.360 0.580 rg
+BT /F2 13.20 Tf 1 0 0 1 54.00 478.89 Tm (8.2 Implementation details worth noting) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 455.89 Tm (The coordinator invokes named kernel functions and passes each full state as a) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 437.89 Tm (JSON payload argument. Agent output is parsed back into a dictionary before the) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 419.89 Tm (next stage runs. Deep copies of the input job and resume list prevent direct mutation) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 401.89 Tm (of the caller's dictionaries. The coordinator clamps negative top_n to zero. The) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 383.89 Tm (ranking order is deterministic for equal scores because candidate ID is used as a) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 365.89 Tm (secondary key. Availability slots are copied into the tool on construction, and) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 347.89 Tm (reservations persist only within that tool instance.) Tj ET
+0.160 0.360 0.580 rg
+BT /F2 13.20 Tf 1 0 0 1 54.00 319.89 Tm (8.3 Reproducibility and environment) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 296.89 Tm (The test command uses Python's standard unittest framework, which supports test) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 278.89 Tm (cases, suites, and automated execution [2]. In the environment used to prepare this) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 260.89 Tm (report, all four repository tests completed successfully. The README supplies the) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 242.89 Tm (dependency installation and test commands; the repository does not pin an exact) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 224.89 Tm (interpreter version or lock every transitive dependency. For reproducible institutional) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 206.89 Tm (submission, record the interpreter and dependency versions used, and follow any) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 188.89 Tm (course-specific environment requirements.) Tj ET
+endstream
+endobj
+27 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 28 0 R >>
+endobj
+28 0 obj
+<< /Length 5820 >>
+stream
+0.360 0.400 0.450 rg
+BT /F2 8.50 Tf 1 0 0 1 54.00 812.89 Tm (RECRUITMENT SCREENING AND INTERVIEW SCHEDULING PIPELINE) Tj ET
+0.800 0.840 0.880 RG
+0.60 w 54.00 800.89 m 541.28 800.89 l S
+0.800 0.840 0.880 RG
+0.60 w 54.00 43.00 m 541.28 43.00 l S
+0.360 0.400 0.450 rg
+BT /F1 8.50 Tf 1 0 0 1 54.00 25.00 Tm (University project report | 15 November 2026) Tj ET
+0.360 0.400 0.450 rg
+BT /F2 9.00 Tf 1 0 0 1 513.28 25.00 Tm (12) Tj ET
+0.100 0.200 0.340 rg
+BT /F2 15.00 Tf 1 0 0 1 54.00 761.89 Tm (9. Testing and results) Tj ET
+0.360 0.400 0.450 rg
+BT /F1 10.50 Tf 1 0 0 1 54.00 736.89 Tm (Repository test suite executed for this report) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 711.89 Tm (The automated suite uses IsolatedAsyncioTestCase to exercise the asynchronous) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 693.89 Tm (coordinator against deterministic local tools. The tests focus on observable) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 675.89 Tm (end-to-end behavior rather than unit-testing every helper. The command run was:) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 657.89 Tm (.venv\\Scripts\\python.exe -m unittest discover -s tests -v. All four tests passed during) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 639.89 Tm (preparation of this report.) Tj ET
+0.100 0.200 0.340 rg
+54.00 599.39 487.28 24.50 re f
+1.000 1.000 1.000 rg
+BT /F2 9.50 Tf 1 0 0 1 60.00 612.89 Tm (Test scenario) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 9.50 Tf 1 0 0 1 190.00 612.89 Tm (Expected behavior checked) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 9.50 Tf 1 0 0 1 499.28 612.89 Tm (Result) Tj ET
+0.960 0.970 0.980 rg
+54.00 570.39 487.28 36.00 re f
+0.150 0.180 0.220 rg
+BT /F1 9.30 Tf 1 0 0 1 60.00 596.39 Tm (Sequential scoring, review,) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 9.30 Tf 1 0 0 1 60.00 584.39 Tm (and scheduling) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 9.30 Tf 1 0 0 1 190.00 596.39 Tm (Candidates remain ordered; top two receive distinct slots; raw resumes) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 9.30 Tf 1 0 0 1 190.00 584.39 Tm (are absent; stage and reservation events appear in trace.) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 9.30 Tf 1 0 0 1 499.28 596.39 Tm (PASS) Tj ET
+0.800 0.840 0.880 RG
+0.40 w 54.00 566.39 m 541.28 566.39 l S
+0.150 0.180 0.220 rg
+BT /F1 9.30 Tf 1 0 0 1 60.00 568.39 Tm (Protected-attribute text in) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 9.30 Tf 1 0 0 1 60.00 556.39 Tm (resume) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 9.30 Tf 1 0 0 1 190.00 568.39 Tm (Age and gender are not extracted into the profile; only allow-listed fields) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 9.30 Tf 1 0 0 1 190.00 556.39 Tm (are declared for scoring.) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 9.30 Tf 1 0 0 1 499.28 568.39 Tm (PASS) Tj ET
+0.800 0.840 0.880 RG
+0.40 w 54.00 538.39 m 541.28 538.39 l S
+0.960 0.970 0.980 rg
+54.00 526.39 487.28 24.00 re f
+0.150 0.180 0.220 rg
+BT /F1 9.30 Tf 1 0 0 1 60.00 540.39 Tm (No interview slots) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 9.30 Tf 1 0 0 1 190.00 540.39 Tm (Top-ranked candidates remain unscheduled when availability is empty.) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 9.30 Tf 1 0 0 1 499.28 540.39 Tm (PASS) Tj ET
+0.800 0.840 0.880 RG
+0.40 w 54.00 522.39 m 541.28 522.39 l S
+0.150 0.180 0.220 rg
+BT /F1 9.30 Tf 1 0 0 1 60.00 524.39 Tm (Protected requirement) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 9.30 Tf 1 0 0 1 60.00 512.39 Tm (removed) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 9.30 Tf 1 0 0 1 190.00 524.39 Tm (Age-labeled requirement is excluded; scores are recalculated from) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 9.30 Tf 1 0 0 1 190.00 512.39 Tm (remaining requirements; the flagged rationale omits the term.) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 9.30 Tf 1 0 0 1 499.28 524.39 Tm (PASS) Tj ET
+0.800 0.840 0.880 RG
+0.40 w 54.00 494.39 m 541.28 494.39 l S
+0.160 0.360 0.580 rg
+BT /F2 13.20 Tf 1 0 0 1 54.00 491.39 Tm (9.1 What the results support) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 468.39 Tm (The passing tests support the specific assertions above: the tested workflow) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 450.39 Tm (executes, a known full-match candidate scores 100, schedule assignments are) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 432.39 Tm (constrained by available slots, selected protected-attribute examples are handled by) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 414.39 Tm (the reviewer, and raw resume text is not part of the returned state. They also show) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 396.39 Tm (that a candidate with dates but no explicit duration is not credited with stated) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 378.39 Tm (experience in the tested case.) Tj ET
+0.160 0.360 0.580 rg
+BT /F2 13.20 Tf 1 0 0 1 54.00 350.39 Tm (9.2 What remains untested) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 327.39 Tm (Four tests are a small functional suite. They do not measure extraction accuracy) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 309.39 Tm (over varied resumes, robustness to malformed inputs, fairness across demographic) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 291.39 Tm (groups, security, throughput, concurrency, accessibility, usability, or real interview) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 273.39 Tm (scheduling reliability. No claim about production readiness or real-world hiring) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 255.39 Tm (impact follows from this test run. Additional tests should be designed from explicit) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 237.39 Tm (requirements and representative, privacy-protected data before extending the) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 219.39 Tm (project.) Tj ET
+endstream
+endobj
+29 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 30 0 R >>
+endobj
+30 0 obj
+<< /Length 6150 >>
+stream
+0.360 0.400 0.450 rg
+BT /F2 8.50 Tf 1 0 0 1 54.00 812.89 Tm (RECRUITMENT SCREENING AND INTERVIEW SCHEDULING PIPELINE) Tj ET
+0.800 0.840 0.880 RG
+0.60 w 54.00 800.89 m 541.28 800.89 l S
+0.800 0.840 0.880 RG
+0.60 w 54.00 43.00 m 541.28 43.00 l S
+0.360 0.400 0.450 rg
+BT /F1 8.50 Tf 1 0 0 1 54.00 25.00 Tm (University project report | 15 November 2026) Tj ET
+0.360 0.400 0.450 rg
+BT /F2 9.00 Tf 1 0 0 1 513.28 25.00 Tm (13) Tj ET
+0.100 0.200 0.340 rg
+BT /F2 15.00 Tf 1 0 0 1 54.00 761.89 Tm (10. Worked scoring example) Tj ET
+0.360 0.400 0.450 rg
+BT /F1 10.50 Tf 1 0 0 1 54.00 736.89 Tm (Illustration from the test fixture, not a hiring recommendation) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 711.89 Tm (The test fixture uses a Data Analyst role with four requirements: SQL querying) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 693.89 Tm (\(weight 2\), Python \(weight 1\), two years of experience \(weight 1\), and bachelor) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 675.89 Tm (education \(weight 1\). The total eligible weight before review is 5. The score is the) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 657.89 Tm (matched weight divided by 5, multiplied by 100. This example shows how the) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 639.89 Tm (implementation transforms detected terms into a simple numeric score.) Tj ET
+0.100 0.200 0.340 rg
+54.00 599.39 487.28 24.50 re f
+1.000 1.000 1.000 rg
+BT /F2 9.00 Tf 1 0 0 1 60.00 612.89 Tm (Candidate evidence in fixture) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 9.00 Tf 1 0 0 1 208.00 612.89 Tm (SQL \(2\)) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 9.00 Tf 1 0 0 1 265.00 612.89 Tm (Python \(1\)) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 9.00 Tf 1 0 0 1 322.00 612.89 Tm (Experience \(1\)) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 9.00 Tf 1 0 0 1 400.00 612.89 Tm (Bachelor \(1\)) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 9.00 Tf 1 0 0 1 475.00 612.89 Tm (Score) Tj ET
+0.960 0.970 0.980 rg
+54.00 569.39 487.28 37.00 re f
+0.150 0.180 0.220 rg
+BT /F1 9.40 Tf 1 0 0 1 60.00 596.39 Tm (C-01: SQL, Python, 4 years,) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 9.40 Tf 1 0 0 1 60.00 583.89 Tm (BSc) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 9.40 Tf 1 0 0 1 208.00 596.39 Tm (Met) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 9.40 Tf 1 0 0 1 265.00 596.39 Tm (Met) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 9.40 Tf 1 0 0 1 322.00 596.39 Tm (Met) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 9.40 Tf 1 0 0 1 400.00 596.39 Tm (Met) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 9.40 Tf 1 0 0 1 475.00 596.39 Tm (100%) Tj ET
+0.800 0.840 0.880 RG
+0.40 w 54.00 565.39 m 541.28 565.39 l S
+0.150 0.180 0.220 rg
+BT /F1 9.40 Tf 1 0 0 1 60.00 567.39 Tm (C-02: SQL, Excel, 1 year,) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 9.40 Tf 1 0 0 1 60.00 554.89 Tm (Bachelor) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 9.40 Tf 1 0 0 1 208.00 567.39 Tm (Met) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 9.40 Tf 1 0 0 1 265.00 567.39 Tm (Not met) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 9.40 Tf 1 0 0 1 322.00 567.39 Tm (Not met) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 9.40 Tf 1 0 0 1 400.00 567.39 Tm (Met) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 9.40 Tf 1 0 0 1 475.00 567.39 Tm (60%) Tj ET
+0.800 0.840 0.880 RG
+0.40 w 54.00 536.39 m 541.28 536.39 l S
+0.960 0.970 0.980 rg
+54.00 523.89 487.28 24.50 re f
+0.150 0.180 0.220 rg
+BT /F1 9.40 Tf 1 0 0 1 60.00 538.39 Tm (C-03: Python, dates only, MSc) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 9.40 Tf 1 0 0 1 208.00 538.39 Tm (Not met) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 9.40 Tf 1 0 0 1 265.00 538.39 Tm (Met) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 9.40 Tf 1 0 0 1 322.00 538.39 Tm (Unknown) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 9.40 Tf 1 0 0 1 400.00 538.39 Tm (Not met) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 9.40 Tf 1 0 0 1 475.00 538.39 Tm (20%) Tj ET
+0.800 0.840 0.880 RG
+0.40 w 54.00 519.89 m 541.28 519.89 l S
+0.160 0.360 0.580 rg
+BT /F2 13.20 Tf 1 0 0 1 54.00 516.89 Tm (10.1 Calculation) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 493.89 Tm (For C-01, all five available weight points are matched, so the score is 5 / 5 x 100 =) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 475.89 Tm (100. For C-02, SQL and bachelor education contribute three points, giving 3 / 5 x) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 457.89 Tm (100 = 60. For C-03, Python contributes one point. The text lists employment dates) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 439.89 Tm (but not an explicit duration, so experience is unknown and receives no matched) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 421.89 Tm (weight; the master degree does not satisfy the bachelor requirement. The resulting) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 403.89 Tm (score is 1 / 5 x 100 = 20.) Tj ET
+0.160 0.360 0.580 rg
+BT /F2 13.20 Tf 1 0 0 1 54.00 375.89 Tm (10.2 Scheduling outcome) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 352.89 Tm (With top_n set to 2 and two available slots, C-01 and C-02 receive the first and) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 334.89 Tm (second slots in rank order; C-03 is outside the cutoff and remains unscheduled. This) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 316.89 Tm (illustrates the configured rules, not a recommendation that those requirements,) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 298.89 Tm (weights, or thresholds are appropriate for any actual job. The score omits factors) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 280.89 Tm (that the parser does not represent and can change substantially if the job rubric) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 262.89 Tm (changes.) Tj ET
+0.920 0.950 0.980 rg
+54.00 189.89 487.28 58.00 re f
+0.110 0.480 0.510 rg
+54.00 189.89 4.00 58.00 re f
+0.100 0.200 0.340 rg
+BT /F2 11.50 Tf 1 0 0 1 68.00 231.89 Tm (Key distinction) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 11.00 Tf 1 0 0 1 68.00 215.89 Tm (A score of 100 means every configured, parsed requirement in this example was matched.) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 11.00 Tf 1 0 0 1 68.00 200.89 Tm (It does not mean a candidate is a perfect fit or has a 100% chance of success.) Tj ET
+endstream
+endobj
+31 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 32 0 R >>
+endobj
+32 0 obj
+<< /Length 5544 >>
+stream
+0.360 0.400 0.450 rg
+BT /F2 8.50 Tf 1 0 0 1 54.00 812.89 Tm (RECRUITMENT SCREENING AND INTERVIEW SCHEDULING PIPELINE) Tj ET
+0.800 0.840 0.880 RG
+0.60 w 54.00 800.89 m 541.28 800.89 l S
+0.800 0.840 0.880 RG
+0.60 w 54.00 43.00 m 541.28 43.00 l S
+0.360 0.400 0.450 rg
+BT /F1 8.50 Tf 1 0 0 1 54.00 25.00 Tm (University project report | 15 November 2026) Tj ET
+0.360 0.400 0.450 rg
+BT /F2 9.00 Tf 1 0 0 1 513.28 25.00 Tm (14) Tj ET
+0.100 0.200 0.340 rg
+BT /F2 15.00 Tf 1 0 0 1 54.00 761.89 Tm (11. Privacy, fairness, and limitations) Tj ET
+0.360 0.400 0.450 rg
+BT /F1 10.50 Tf 1 0 0 1 54.00 736.89 Tm (Responsible interpretation and risks before real-world use) Tj ET
+0.160 0.360 0.580 rg
+BT /F2 13.20 Tf 1 0 0 1 54.00 710.89 Tm (11.1 Data minimization and privacy) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 687.89 Tm (A positive design choice is that the parser removes the resumes key from the state) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 669.89 Tm (before later stages, and the returned result does not contain raw resume text. The) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 651.89 Tm (profile retains candidate ID, extracted skills, experience, education, requirement) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 633.89 Tm (results, score, rationale, review result, rank, and possible slot. These fields can still) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 615.89 Tm (be personal data when linked to an individual. No consent, lawful-basis analysis,) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 597.89 Tm (access control, encryption, retention schedule, deletion workflow, incident response,) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 579.89 Tm (or privacy notice is implemented. Removing text from one Python dictionary is not a) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 561.89 Tm (full data-protection program.) Tj ET
+0.160 0.360 0.580 rg
+BT /F2 13.20 Tf 1 0 0 1 54.00 533.89 Tm (11.2 Fairness and validity) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 510.89 Tm (The reviewer checks a finite list of words in limited fields. It is not a statistical) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 492.89 Tm (fairness assessment and cannot guarantee that criteria are job-related or that) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 474.89 Tm (outcomes are equitable. Static keyword extraction may favor particular resume) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 456.89 Tm (styles, languages, degree names, or ways of describing experience. A weighted) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 438.89 Tm (score can encode subjective assumptions and may hide a trade-off between) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 420.89 Tm (requirements behind one percentage. Candidate ID is also used to break score ties,) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 402.89 Tm (so a real system would need to ensure that identifiers are neutral and stable.) Tj ET
+0.160 0.360 0.580 rg
+BT /F2 13.20 Tf 1 0 0 1 54.00 374.89 Tm (11.3 Reliability and scope limitations) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 351.89 Tm (The parser has no confidence score or human correction step, and unsupported) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 333.89 Tm (wording can be treated as missing evidence. Numeric conversions and expected) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 315.89 Tm (input structures are not comprehensively validated. The scheduler is an in-memory) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 297.89 Tm (demonstration, not a persistent or concurrency-safe calendar service. The test data) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 279.89 Tm (is tiny and illustrative. The application does not provide monitoring, audit approvals,) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 261.89 Tm (explanations to applicants, appeal mechanisms, or a method to validate outcomes) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 243.89 Tm (against job performance.) Tj ET
+0.160 0.360 0.580 rg
+BT /F2 13.20 Tf 1 0 0 1 54.00 215.89 Tm (11.4 Minimum safeguards for extension) Tj ET
+0.110 0.480 0.510 rg
+BT /F2 13.00 Tf 1 0 0 1 57.00 197.89 Tm (-) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 12.50 Tf 1 0 0 1 73.00 197.89 Tm (Define job-related, measurable criteria with subject-matter and fairness review) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 12.50 Tf 1 0 0 1 73.00 180.89 Tm (before scoring.) Tj ET
+0.110 0.480 0.510 rg
+BT /F2 13.00 Tf 1 0 0 1 57.00 163.89 Tm (-) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 12.50 Tf 1 0 0 1 73.00 163.89 Tm (Validate inputs, use representative and privacy-protected test sets, and measure) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 12.50 Tf 1 0 0 1 73.00 146.89 Tm (error rates and group outcomes.) Tj ET
+0.110 0.480 0.510 rg
+BT /F2 13.00 Tf 1 0 0 1 57.00 129.89 Tm (-) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 12.50 Tf 1 0 0 1 73.00 129.89 Tm (Provide human review, correction, and appeal pathways; do not treat a pass flag or) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 12.50 Tf 1 0 0 1 73.00 112.89 Tm (score as a decision.) Tj ET
+0.110 0.480 0.510 rg
+BT /F2 13.00 Tf 1 0 0 1 57.00 95.89 Tm (-) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 12.50 Tf 1 0 0 1 73.00 95.89 Tm (Establish privacy, retention, security, accessibility, and audit controls before) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 12.50 Tf 1 0 0 1 73.00 78.89 Tm (processing real applicant data.) Tj ET
+endstream
+endobj
+33 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 34 0 R >>
+endobj
+34 0 obj
+<< /Length 4746 >>
+stream
+0.360 0.400 0.450 rg
+BT /F2 8.50 Tf 1 0 0 1 54.00 812.89 Tm (RECRUITMENT SCREENING AND INTERVIEW SCHEDULING PIPELINE) Tj ET
+0.800 0.840 0.880 RG
+0.60 w 54.00 800.89 m 541.28 800.89 l S
+0.800 0.840 0.880 RG
+0.60 w 54.00 43.00 m 541.28 43.00 l S
+0.360 0.400 0.450 rg
+BT /F1 8.50 Tf 1 0 0 1 54.00 25.00 Tm (University project report | 15 November 2026) Tj ET
+0.360 0.400 0.450 rg
+BT /F2 9.00 Tf 1 0 0 1 513.28 25.00 Tm (15) Tj ET
+0.100 0.200 0.340 rg
+BT /F2 15.00 Tf 1 0 0 1 54.00 761.89 Tm (12. Conclusion, future work, and references) Tj ET
+0.360 0.400 0.450 rg
+BT /F1 10.50 Tf 1 0 0 1 54.00 736.89 Tm (Summary and source list) Tj ET
+0.160 0.360 0.580 rg
+BT /F2 13.20 Tf 1 0 0 1 54.00 710.89 Tm (12.1 Conclusion) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 687.89 Tm (The repository demonstrates a readable, deterministic workflow for extracting a) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 669.89 Tm (limited candidate profile, comparing it with explicit job requirements, producing a) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 651.89 Tm (weighted ranking, applying a narrow protected-term review, and scheduling) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 633.89 Tm (interviews from an in-memory slot list. Its modular stages and trace make the flow) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 615.89 Tm (understandable, and the four automated tests pass for their stated examples. Its) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 597.89 Tm (outputs must nevertheless be interpreted as prototype behavior: they are not) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 579.89 Tm (validated measures of candidate quality or fairness, and they should not replace) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 561.89 Tm (accountable human judgment.) Tj ET
+0.160 0.360 0.580 rg
+BT /F2 13.20 Tf 1 0 0 1 54.00 533.89 Tm (12.2 Future work) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 510.89 Tm (Useful next steps include schema validation, configurable and documented) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 492.89 Tm (requirement rubrics, tests for parser edge cases, evaluation with carefully governed) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 474.89 Tm (representative data, review of tie-breaking and proxy risks, and a persistent atomic) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 456.89 Tm (scheduling service. Any extension should first clarify intended users, applicant) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 438.89 Tm (notice, human oversight, privacy controls, and evaluation criteria. Model integration,) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 420.89 Tm (if ever introduced, would require a separate validation and governance plan rather) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 13.00 Tf 1 0 0 1 54.00 402.89 Tm (than being assumed to improve the current rule-based behavior.) Tj ET
+0.160 0.360 0.580 rg
+BT /F2 13.20 Tf 1 0 0 1 54.00 374.89 Tm (References) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 9.30 Tf 1 0 0 1 66.00 351.89 Tm ([1] Microsoft. Introduction to Semantic Kernel. Microsoft Learn.) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 9.30 Tf 1 0 0 1 66.00 339.59 Tm (https://learn.microsoft.com/en-us/semantic-kernel/overview/ \(accessed 15 November 2026\).) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 9.30 Tf 1 0 0 1 66.00 323.29 Tm ([2] Python Software Foundation. unittest - Unit testing framework. Python documentation.) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 9.30 Tf 1 0 0 1 66.00 310.99 Tm (https://docs.python.org/3/library/unittest.html \(accessed 15 November 2026\).) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 9.30 Tf 1 0 0 1 66.00 294.69 Tm ([3] Project source: README.md; pipeline/coordinator.py; pipeline/memory.py; pipeline/availability_tool.py;) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 9.30 Tf 1 0 0 1 66.00 282.39 Tm (pipeline/agents/*.py. Recruitment Screening and Interview Scheduling Pipeline repository, reviewed 15 November) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 9.30 Tf 1 0 0 1 66.00 270.09 Tm (2026.) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 9.30 Tf 1 0 0 1 66.00 253.79 Tm ([4] Project test source: tests/test_pipeline.py. Four asynchronous end-to-end tests, executed 15 November 2026.) Tj ET
+0.920 0.950 0.980 rg
+54.00 191.49 487.28 58.00 re f
+0.110 0.480 0.510 rg
+54.00 191.49 4.00 58.00 re f
+0.100 0.200 0.340 rg
+BT /F2 11.50 Tf 1 0 0 1 68.00 233.49 Tm (Submission note) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 11.00 Tf 1 0 0 1 68.00 217.49 Tm (Add course-specific details to page 1 and confirm your instructor's rules for citation style,) Tj ET
+0.150 0.180 0.220 rg
+BT /F1 11.00 Tf 1 0 0 1 68.00 202.49 Tm (margins, line spacing, and acceptable use of AI assistance.) Tj ET
+endstream
+endobj
+35 0 obj
+<< /Title (Recruitment Screening and Interview Scheduling Pipeline - Project Report) /Author (University project report) /Subject (Repository analysis, implementation, testing, and limitations) /Creator (Local report generator) >>
+endobj
+xref
+0 36
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000218 00000 n 
+0000000288 00000 n 
+0000000363 00000 n 
+0000000505 00000 n 
+0000002501 00000 n 
+0000002643 00000 n 
+0000007927 00000 n 
+0000008070 00000 n 
+0000013197 00000 n 
+0000013341 00000 n 
+0000018211 00000 n 
+0000018355 00000 n 
+0000023300 00000 n 
+0000023444 00000 n 
+0000029331 00000 n 
+0000029475 00000 n 
+0000036070 00000 n 
+0000036214 00000 n 
+0000041110 00000 n 
+0000041254 00000 n 
+0000046008 00000 n 
+0000046152 00000 n 
+0000050730 00000 n 
+0000050874 00000 n 
+0000055980 00000 n 
+0000056124 00000 n 
+0000061997 00000 n 
+0000062141 00000 n 
+0000068344 00000 n 
+0000068488 00000 n 
+0000074085 00000 n 
+0000074229 00000 n 
+0000079028 00000 n 
+trailer
+<< /Size 36 /Root 1 0 R /Info 35 0 R >>
+startxref
+79275
+%%EOF
