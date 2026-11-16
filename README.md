@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Recruitment Screening and Interview Scheduling Pipeline
 
 A small, deterministic Python demo of a multi-stage recruitment screening workflow. It uses [Microsoft Semantic Kernel](https://github.com/microsoft/semantic-kernel) to register and invoke local Python functions as plugins; it does not call an AI model or require model credentials.
@@ -141,3 +142,6 @@ The tests cover sequential scoring, review and scheduling; omission of protected
 - The protected-term list is not exhaustive and can miss proxies or context; a flagged phrase is not proof of unfairness, and a passing review is not proof of fairness.
 - The score is a simple weighted match percentage. It is not a validated measure of candidate quality and should not be used as an automated hiring decision.
 - Slots are reserved sequentially in memory, without persistence, external calendar integration, or concurrency coordination.
+=======
+# ca2-ai-agent
+>>>>>>> ca2-ai-agent/main
